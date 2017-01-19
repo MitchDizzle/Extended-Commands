@@ -1,0 +1,247 @@
+"Phrases"
+{
+	"ct"
+	{
+		"en" 			"^0DCounter-Terrorist"
+	}
+	"t"
+	{
+		"en" 			"^09Terrorist"
+	}
+	"spec"
+	{
+		"en" 			"^08Spectator"
+	}
+
+	"Respawn usage"
+	{
+		"en"			"Usage: sm_respawn <target> [force]"
+	}
+	"Respawn target"
+	{
+		"#format"		"{1:t}"
+		"en"			"Respawned ^05{1}^01."
+	}
+
+	"Health usage"
+	{
+		"en"			"Usage: sm_health <target> <+/-amount>"
+	}
+	"Health target set"
+	{
+		"#format"		"{1:t},{2:d}"
+		"en"			"Set the health of ^05{1}^01 to ^04{2}."
+	}
+	"Health target add"
+	{
+		"#format"		"{1:d},{2:t}"
+		"en"			"Added ^05{1}^01 health to ^04{2}."
+	}
+
+	"Armor usage"
+	{
+		"en"			"Usage: sm_armor <target> <+/-amount>"
+	}
+	"Armor target set"
+	{
+		"#format"		"{1:t},{2:d}"
+		"en"			"Set the armor of ^05{1}^01 to ^04{2}."
+	}
+	"Armor target add"
+	{
+		"#format"		"{1:d},{2:t}"
+		"en"			"Added ^05{1}^01 armor to ^04{2}."
+	}
+
+	"Account usage"
+	{
+		"en"			"Usage: sm_account <target> <+/-amount>"
+	}
+	"Account target set"
+	{
+		"#format"		"{1:t},{2:d}"
+		"en"			"Set the account of ^05{1}^01 to ^04{2}^01."
+	}
+	"Account target add"
+	{
+		"#format"		"{1:d},{2:t}"
+		"en"			"Added {1} account to ^04{2}."
+	}
+
+	"Team usage"
+	{
+		"en"			"Usage: sm_team <target> [team]"
+	}
+	"Team target"
+	{
+		"#format"		"{1:t},{2:t}"
+		"en"			"Set the team of ^05{1}^01 to {2}^01."
+	}
+
+	"Give usage"
+	{
+		"en"			"Usage: sm_give <target> <item>"
+	}
+	"Give target"
+	{
+		"#format"		"{1:s},{2:t}"
+		"en"			"Gave ^04{1}^01 to ^05{2}^01."
+	}
+
+	"Melee usage"
+	{
+		"en"			"Usage: sm_melee <target>"
+	}
+	"Melee target"
+	{
+		"#format"		"{1:t}"
+		"en"			"Stripped ^05{1}^01 to melee."
+	}
+
+	"Disarm usage"
+	{
+		"en"			"Usage: sm_disarm <target>"
+	}
+	"Disarm target"
+	{
+		"#format"		"{1:t}"
+		"en"			"Disarmed ^05{1}^01."
+	}
+
+	"Speed usage"
+	{
+		"en"			"Usage: sm_speed <target> <speed>"
+	}
+	"Speed target"
+	{
+		"#format"		"{1:t},{2:.1f}"
+		"en"			"Set the speed of ^05{1}^01 to ^04{2}^01."
+	}
+
+	"Teleport usage"
+	{
+		"en"			"Usage: sm_teleport <target> <player/x> [y] [z]"
+	}
+	"Teleport target player"
+	{
+		"#format"		"{1:t},{2:s}"
+		"en"			"Teleported ^05{1}^01 to {2}."
+	}
+	"Teleport target pos"
+	{
+		"#format"		"{1:t},{2:.1f},{3:.1f},{4:.1f}"
+		"en"			"Teleported ^05{1}^01 to (^04{2}^01,^04{3}^01,^04{4}^01)."
+	}
+	"Teleport invalid location"
+	{
+		"en"			"Invalid teleport location."
+	}
+
+	"Exec usage"
+	{
+		"en"			"Usage: sm_execute <target> <command>"
+	}
+	"Exec target"
+	{
+		"#format"		"{1:s},{2:t}"
+		"en"			"Executed command ^04{1}^01 on ^05{2}^01."
+	}
+	
+	"Endround usage"
+	{
+		"en"			"Usage: sm_endround [delay]"
+	}
+	"Endround message"
+	{
+		"en"			"Ended the round"
+	}
+	
+	"FDA usage"
+	{
+		"en"			"Usage: sm_fda <target> <amount>"
+	}
+	"FDA Frags target"
+	{
+		"#format"		"{1:t},{2:d}"
+		"en"			"Set the frags of ^05{1}^01 to ^04{2}^01."
+	}
+	"FDA Deaths target"
+	{
+		"#format"		"{1:t},{2:d}"
+		"en"			"Set the deaths of ^05{1}^01 to ^04{2}^01."
+	}
+	"FDA Assists target"
+	{
+		"#format"		"{1:t},{2:d}"
+		"en"			"Set the assists of ^05{1}^01 to ^04{2}^01."
+	}
+
+	"PushLaunch usage"
+	{
+		"en"			"Usage: sm_pushlaunch <target> <amount>"
+	}
+	"Push target"
+	{
+		"#format"		"{1:t}"
+		"en"			"Pushed ^05{1}^01."
+	}
+	"Launch target"
+	{
+		"#format"		"{1:t}"
+		"en"			"Launched ^05{1}^01."
+	}
+
+	"ClanTag usage"
+	{
+		"en"			"Usage: sm_clantag <target> <tag>"
+	}
+	"ClanTag target"
+	{
+		"#format"		"{1:t},{2:s}"
+		"en"			"Set ^04{1}^01's clan tag to ^05{2}^01."
+	}
+	"ClanTag target removed"
+	{
+		"#format"		"{1:t}"
+		"en"			"Removed ^04{1}^01's clan tag."
+	}
+	
+	"ProjectileFix message"
+	{
+		"en"			"Removed projectiles."
+	}
+	
+	"BotKick message"
+	{
+		"en"			"Usage: sm_botkick"
+	}
+	
+	"Extend usage"
+	{
+		"en"			"Usage: sm_extend <time>"
+	}
+	"Extend message"
+	{
+		"en"			"Extended the round."
+	}
+	
+	"Drop usage"
+	{
+		"en"			"Usage: sm_drop <target> [all/slot#/weapon]"
+	}
+	"Drop target"
+	{
+		"#format"		"{1:s},{2:t}"
+		"en"			"Dropped ^05{1}^01 from ^04{2}^01."
+	}
+	"Drop all weapons"
+	{
+		"#format"		"{1:t}"
+		"en"			"Dropped all weapons from ^04{1}^01."
+	}
+	"Drop multiple weapons"
+	{
+		"#format"		"{1:t}"
+		"en"			"Dropped ^04{1}^01's weapons."
+	}
+}
